@@ -22,14 +22,18 @@ jupyter notebook outlier_det_imgseg.ipynb/outlier_det_wine.ipynb
 
 ### imgseg results
 
-There are imgseg/wine results, more detail can be found at results folder and jupyter notebook 
+There are imgseg/wine results, more detail can be found at results folder and jupyter notebook.
 
+This is sample result, PCA+KNN performs best and PCA performs worst
 ![sample_result](https://github.com/Bruce-yi/Anomaly-Detection/blob/master/results/imgseg/sample_benchmarks.JPG)
+This is all benchmarks result, KNN and LOF performs well in low anomaly rate but badly in high anomaly. On the contrast, PCA and LODA are more robust.
 ![all_result](https://github.com/Bruce-yi/Anomaly-Detection/blob/master/results/imgseg/all_benchmarks.JPG)
 
 ### wine results
 
+This is sample result, also, PCA+KNN performs best.
 ![sample_result](https://github.com/Bruce-yi/Anomaly-Detection/blob/master/results/wine/sample_benchmarks.JPG)
-![all_result](https://github.com/Bruce-yi/Anomaly-Detection/blob/master/results/wine/sample_benchmarks.JPG)
+This is all benchmarks result, the trend of results of all models is consistent.
+![all_result](https://github.com/Bruce-yi/Anomaly-Detection/blob/master/results/wine/all_benchmarks.JPG)
 
 
